@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12.4rem;
+  margin-bottom: 5rem;
+  .title {
+    font-weight: 500;
+    font-size: 4.8rem;
+    color: #eeeeee;
+    margin-left: 6rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .header {
+    .image {
+      img {
+        width: 70%;
+      }
+    }
+  }
+}

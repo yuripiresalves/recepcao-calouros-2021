@@ -1,0 +1,117 @@
+.terminal {
+  background: url('/images/terminal.svg') no-repeat;
+  background-size: 100%;
+  padding-top: 8.7rem;
+  padding-bottom: 20rem;
+  .areaInterna {
+    width: 100%;
+    max-width: 105.8rem;
+    margin: 0 auto;
+
+    .title {
+      font-size: 3.2rem;
+      font-weight: normal;
+      margin-bottom: 4rem;
+      color: #eee;
+      .user {
+        color: #5ee24a;
+      }
+      .blue {
+        color: #3ea2ff;
+      }
+    }
+    .text {
+      font-size: 3.2rem;
+      color: #eee;
+      margin-bottom: 10rem;
+      display: flex;
+      align-items: center;
+      .link {
+        margin-left: 3rem;
+        color: #eee;
+        transition: color 0.2s;
+
+        &:hover {
+          color: #5ee24a;
+        }
+      }
+    }
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 2.4rem;
+      color: #eee;
+      text-align: center;
+      .thead,
+      .tr {
+        border: 2px dashed #eee;
+      }
+      .thead {
+        tr {
+          th {
+            padding: 1rem;
+            border: 2px dashed #eee;
+          }
+        }
+      }
+      .tbody {
+        tr {
+          td {
+            padding: 3rem;
+            border: 2px dashed #eee;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .terminal {
+    .areaInterna {
+      max-width: 100rem;
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .terminal {
+    .areaInterna {
+      .iconDiscord {
+        img {
+          width: 70%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .terminal {
+    .areaInterna {
+      max-width: 100rem;
+      .iconDiscord {
+        img {
+          width: 70%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  .terminal {
+    background-image: none;
+    .areaInterna {
+      &::before {
+        content: '';
+        display: block;
+        background-image: url('/images/borda.svg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 52px;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
