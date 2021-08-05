@@ -49,16 +49,6 @@ export function Footer() {
               </a>
             </div>
             <div className={styles.din}>
-              {/* <a
-                href="http://www.instagram.com/uemdin"
-                target="_blank"
-                className={styles.insta}
-              >
-                <div className={styles.icon}>
-                  <img src="/images/instagram.svg" alt="Icone instagram" />
-                </div>
-                <span>@dinuem</span>
-              </a> */}
               <a
                 href="http://www.facebook.com/uemdin"
                 target="_blank"
@@ -72,6 +62,84 @@ export function Footer() {
                   />
                 </div>
                 <span>@uemdin</span>
+              </a>
+            </div>
+            <div className={styles.cainfo}>
+              <a
+                href="http://www.instagram.com/cainfouem"
+                target="_blank"
+                className={styles.insta}
+              >
+                <div className={styles.icon}>
+                  <img src="/images/instagram.svg" alt="Icone instagram" />
+                </div>
+                <span>@cainfouem</span>
+              </a>
+              <a
+                href="http://www.facebook.com/cainfouem"
+                target="_blank"
+                className={styles.face}
+              >
+                <div className={styles.icon}>
+                  <img
+                    className={styles.iconFace}
+                    src="/images/facebook.png"
+                    alt="Icone facebook"
+                  />
+                </div>
+                <span>@cainfouem</span>
+              </a>
+            </div>
+            <div className={styles.caccom}>
+              <a
+                href="http://www.instagram.com/caccomuem"
+                target="_blank"
+                className={styles.insta}
+              >
+                <div className={styles.icon}>
+                  <img src="/images/instagram.svg" alt="Icone instagram" />
+                </div>
+                <span>@caccomuem</span>
+              </a>
+              <a
+                href="http://www.facebook.com/caccomuem"
+                target="_blank"
+                className={styles.face}
+              >
+                <div className={styles.icon}>
+                  <img
+                    className={styles.iconFace}
+                    src="/images/facebook.png"
+                    alt="Icone facebook"
+                  />
+                </div>
+                <span>@caccomuem</span>
+              </a>
+            </div>
+            <div className={styles.conectadas}>
+              <a
+                href="http://www.instagram.com/conectadasuem"
+                target="_blank"
+                className={styles.insta}
+              >
+                <div className={styles.icon}>
+                  <img src="/images/instagram.svg" alt="Icone instagram" />
+                </div>
+                <span>@conectadasuem</span>
+              </a>
+              <a
+                href="http://www.facebook.com/conectadasuem"
+                target="_blank"
+                className={styles.face}
+              >
+                <div className={styles.icon}>
+                  <img
+                    className={styles.iconFace}
+                    src="/images/facebook.png"
+                    alt="Icone facebook"
+                  />
+                </div>
+                <span>@conectadasuem</span>
               </a>
             </div>
           </div>

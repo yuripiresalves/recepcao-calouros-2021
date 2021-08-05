@@ -21,3 +21,20 @@
     }
   }
 }
+
+@media (max-width: 620px) {
+  .header {
+    flex-direction: column;
+    margin-top: 7rem;
+    .image {
+      margin-bottom: 3rem;
+      img {
+        width: 100%;
+      }
+    }
+    .title {
+      margin-left: 0rem;
+      text-align: center;
+    }
+  }
+}
