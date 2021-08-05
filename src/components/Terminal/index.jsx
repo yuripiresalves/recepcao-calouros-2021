@@ -19,7 +19,7 @@ export function Terminal() {
         </h2>
         <a href="https://discord.gg/5JaS4p4mWJ" target="_blank" rel="noreferrer" className={styles.text}>
           <div className={styles.iconDiscord}>
-            <Image src="/images/discord.svg" alt="Discord" />
+            <Image src="/recepcaocalouros/images/discord.svg" alt="Discord" />
           </div>
           <span className={styles.link}>https://discord.gg/5JaS4p4mWJ</span>
         </a>
