@@ -1,31 +1,38 @@
 import styles from './styles.module.scss';
-import Image from 'next/image';
 
 export function Terminal() {
   return (
     <main className={styles.terminal}>
       <div className={styles.areaInterna}>
         <h2 className={styles.title}>
-          <span className={styles.user}>din@uem</span>: <span className={styles.blue}>~</span>/recepcao_calouros${' '}
+          <span className={styles.user}>din@uem</span>:{' '}
+          <span className={styles.blue}>~</span>/recepcao_calouros${' '}
           <span className={styles.blue}>cat</span> bem_vindo.txt
         </h2>
         <p className={styles.text}>
-          bem-vindo ao site da recepção de calouros da UEM dos cursos de Informática e Ciência da Computação.
+          bem-vindo ao site da recepção de calouros da UEM dos cursos de
+          Informática e Ciência da Computação.
         </p>
 
         <h2 className={styles.title}>
-          <span className={styles.user}>din@uem</span>: <span className={styles.blue}>~</span>/recepcao_calouros${' '}
+          <span className={styles.user}>din@uem</span>:{' '}
+          <span className={styles.blue}>~</span>/recepcao_calouros${' '}
           <span className={styles.blue}>cat</span> link_discord.txt
         </h2>
-        <a href="https://discord.gg/5JaS4p4mWJ" target="_blank" rel="noreferrer" className={styles.text}>
+        <a
+          href="https://discord.gg/5JaS4p4mWJ"
+          target="_blank"
+          className={styles.text}
+        >
           <div className={styles.iconDiscord}>
-            <Image src="/recepcaocalouros/images/discord.svg" alt="Discord" />
+            <img src="/images/discord.svg" alt="Discord" />
           </div>
           <span className={styles.link}>https://discord.gg/5JaS4p4mWJ</span>
         </a>
 
         <h2 className={styles.title}>
-          <span className={styles.user}>din@uem</span>: <span className={styles.blue}>~</span>/recepcao_calouros${' '}
+          <span className={styles.user}>din@uem</span>:{' '}
+          <span className={styles.blue}>~</span>/recepcao_calouros${' '}
           <span className={styles.blue}>cat</span> cronograma.txt
         </h2>
 
